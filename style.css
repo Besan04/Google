@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+.Logo img {
+  width: 272px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+}
+.upbtn {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+.up {
+  margin: 70px;
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  margin: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.buttons {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  border: 1px solid rgba(32, 33, 36, 0.151);
+}
+
+.search-input {
+  width: 400px;
+  padding: 15px 15px 15px 45px;
+  padding-right: 80px;
+  margin-top: 20px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  outline: none;
+  font-size: 16px;
+}
+.search-input-wrapper {
+  position: relative;
+  display: inline;
+}
+.search-input:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+.voice-icon {
+  position: absolute;
+  right: 55px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.image-search {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.search-form {
+  margin-top: 20px;
+}
